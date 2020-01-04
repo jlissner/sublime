@@ -2,6 +2,7 @@
 
 * Naomi
 * Emmet
+* SideBarEnhancements
 
 # Settings
 
