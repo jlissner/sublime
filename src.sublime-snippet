@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+import React from 'react';
+import PropTypes from 'prop-types';
+import { withStyles } from '@material-ui/core/styles';
+
+const styles = theme => ({
+  ${3}
+})
+
+function ${1}(${2}) {
+  return (
+    <div>
+      Hello World
+    </div>
+  )
+}
+
+${1}.propTypes = ${2};
+
+export default withSyles(styles)(${1});
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>src</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <description>styled react component</description>
+</snippet>

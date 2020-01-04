@@ -1,0 +1,24 @@
+<snippet>
+  <content><![CDATA[
+import React from 'react';
+import PropTypes from 'prop-types';
+
+function ${1}(${2}) {
+  return (
+    <div>
+      Hello World
+    </div>
+  )
+}
+
+${1}.propTypes = ${2};
+
+export default ${1};
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>rc</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <description>react component</description>
+</snippet>

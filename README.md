@@ -1,2 +1,7 @@
-# sublime
-repo for managing my sublime settings
+# Packages
+
+* Naomi
+* Emmet
+* Babel
+* LoremIpsum
+

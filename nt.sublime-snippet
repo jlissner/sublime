@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[
+import { cleanup, render, fireEvent } from '@testing-library/react';
+import ${1:Component} from '${2:path}';
+
+describe('${3:description}', () => {
+  let wrapper;
+
+  beforeEach(() => {
+    wrapper = render(<${1:Component} />);
+  });
+
+  afterEach(cleanup);
+
+  it('${4:test name}', () => {
+    const {${5:queries}} = wrapper;
+    
+    ${6:assertion}
+  })
+});
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>nt</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <description>new test</description>
+</snippet>
