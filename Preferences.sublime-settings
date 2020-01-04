@@ -1,14 +1,9 @@
-# Packages
-
-* Naomi
-* Emmet
-
-# Settings
-
-```
 {
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
   "font_size": 12,
   "tab_size": 2,
   "translate_tabs_to_spaces": true,
 }
-```
